@@ -1,9 +1,51 @@
-<mxfile host="app.diagrams.net" modified="2023-04-22T08:20:23.228Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/112.0" version="21.2.1" etag="RvEXG3B3mT64wy1xWeTT" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-22T08:20:57.643Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/112.0" etag="cUTeIoxO82jD4ir4DGyV" version="21.2.1" type="github">
   <diagram name="Page-1" id="VpL2ys_RAqC7LnC4w82I">
-    <mxGraphModel>
+    <mxGraphModel dx="1434" dy="782" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="NVHpKfPrYD7azIvsyRqQ-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NVHpKfPrYD7azIvsyRqQ-2" target="NVHpKfPrYD7azIvsyRqQ-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NVHpKfPrYD7azIvsyRqQ-2" value="action : validation" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="174" y="70" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NVHpKfPrYD7azIvsyRqQ-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NVHpKfPrYD7azIvsyRqQ-4" target="NVHpKfPrYD7azIvsyRqQ-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NVHpKfPrYD7azIvsyRqQ-4" value="récupération de la shoppinglist utilisateur" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="174" y="150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NVHpKfPrYD7azIvsyRqQ-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NVHpKfPrYD7azIvsyRqQ-7" target="NVHpKfPrYD7azIvsyRqQ-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NVHpKfPrYD7azIvsyRqQ-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NVHpKfPrYD7azIvsyRqQ-7" target="NVHpKfPrYD7azIvsyRqQ-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NVHpKfPrYD7azIvsyRqQ-7" value="ing qty &amp;lt;&amp;gt; 0" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="194" y="230" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="NVHpKfPrYD7azIvsyRqQ-8" value="next ing" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="334" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NVHpKfPrYD7azIvsyRqQ-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NVHpKfPrYD7azIvsyRqQ-11" target="NVHpKfPrYD7azIvsyRqQ-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NVHpKfPrYD7azIvsyRqQ-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NVHpKfPrYD7azIvsyRqQ-11" target="NVHpKfPrYD7azIvsyRqQ-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NVHpKfPrYD7azIvsyRqQ-11" value="update ing qty" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="174" y="330" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NVHpKfPrYD7azIvsyRqQ-12" value="Delete instance of shopping list" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="60" y="470" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NVHpKfPrYD7azIvsyRqQ-13" value="Update quantity 0" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="294" y="470" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NVHpKfPrYD7azIvsyRqQ-14" value="Validation de la shopping list" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="20" y="10" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
